@@ -211,7 +211,7 @@ header ul a strong{
     -webkit-font-smoothing:antialiased
 }
 section{
-    padding:15px 20px 50px;
+    padding:15px 20px 20px;
     font-size:15px;
     border-top:1px solid #fff;
     background:linear_gradient(#fafafa, #DEDEDE 700px);
@@ -221,8 +221,15 @@ section{
 h1,h2,h3,h4,h5,h6{
     color:#222;
     padding:0;
-    margin:0 0 20px;
+    margin:0 0 10px;
     line-height:1.2
+}
+h4{
+    color:#222;
+    padding:0;
+    margin:0 0 5px;
+    line-height:1.2;
+    font-style:normal;
 }
 p,ul,ol,table,pre,dl{
     margin:0 0 20px
@@ -355,7 +362,7 @@ html{
 }
 body{
     padding:100px 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Source Sans 3", serif;
 }
 .wrapper{
     background:#fff
@@ -453,6 +460,31 @@ blockquote{
 }
  
 .button-icon {
-    width:20px;
-    height:20px;
+    background-color:white;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto
+}
+
+.main-table-div{
+    display: flex; 
+    justify-content: center;
+}
+.main-table{
+    border: 0px solid black; 
+    border-collapse: collapse; 
+    width: 500px; 
+}
+
+.main-table-column {
+    border: 0px solid black; 
+    text-align: center; 
+    padding: 0px 10px;
+    width: 250px;
+}
+
+.banner {
+    width: 300px;
 }
