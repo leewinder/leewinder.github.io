@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- American Football SVG Placeholder -->
+  <ellipse cx="100" cy="100" rx="60" ry="90" fill="#8B4513" stroke="#2F1F0F" stroke-width="3"/>
+  
+  <!-- Laces -->
+  <line x1="100" y1="40" x2="100" y2="160" stroke="#F5F5DC" stroke-width="2"/>
+  <line x1="85" y1="70" x2="115" y2="70" stroke="#F5F5DC" stroke-width="2"/>
+  <line x1="85" y1="85" x2="115" y2="85" stroke="#F5F5DC" stroke-width="2"/>
+  <line x1="85" y1="100" x2="115" y2="100" stroke="#F5F5DC" stroke-width="2"/>
+  <line x1="85" y1="115" x2="115" y2="115" stroke="#F5F5DC" stroke-width="2"/>
+  <line x1="85" y1="130" x2="115" y2="130" stroke="#F5F5DC" stroke-width="2"/>
+  
+  <!-- Stitching lines -->
+  <path d="M 50,50 Q 75,80 50,110" stroke="#2F1F0F" stroke-width="2" fill="none"/>
+  <path d="M 150,50 Q 125,80 150,110" stroke="#2F1F0F" stroke-width="2" fill="none"/>
+  <path d="M 50,90 Q 75,120 50,150" stroke="#2F1F0F" stroke-width="2" fill="none"/>
+  <path d="M 150,90 Q 125,120 150,150" stroke="#2F1F0F" stroke-width="2" fill="none"/>
+</svg>
